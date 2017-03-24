@@ -21,6 +21,6 @@
         android:layout_marginBottom="-5dp"
         android:layout_width="20dp"
         android:layout_height="30dp"
-        android:src="@drawable/ic_put_arrow"/>
+        android:src="@drawable/ic_action_stat_reply"/>
 
 </LinearLayout>
