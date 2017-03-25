@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +13,7 @@
         android:layout_height="match_parent"
         android:layout_weight="2.2"
         android:scaleType="centerCrop"
-        android:src="@drawable/thumbnail"/>
+        app:srcCompat="@drawable/thumbnail"/>
     <TextView
         android:id="@+id/author"
         android:gravity="center"
@@ -32,19 +33,19 @@
             android:id="@+id/pause_play_video"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_pause"
+            app:srcCompat="@drawable/ic_pause"
             android:layout_weight="1"/>
         <ImageView
             android:id="@+id/next_video"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_skip_next"
+            app:srcCompat="@drawable/ic_skip_next"
             android:layout_weight="1"/>
         <ImageView
             android:id="@+id/stop_service"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_stop"
+            app:srcCompat="@drawable/ic_stop"
             android:layout_weight="1"/>
     </LinearLayout>
 

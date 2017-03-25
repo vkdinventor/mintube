@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="horizontal"
     android:padding="@dimen/activity_horizontal_margin"
     android:background="@color/colorPrimary"
@@ -21,6 +22,6 @@
         android:layout_marginBottom="-5dp"
         android:layout_width="20dp"
         android:layout_height="30dp"
-        android:src="@drawable/ic_put_arrow"/>
+        app:srcCompat="@drawable/ic_put_arrow"/>
 
 </LinearLayout>

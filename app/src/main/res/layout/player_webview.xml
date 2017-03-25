@@ -17,7 +17,7 @@
                 android:layout_marginTop="-8dp"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/arrow_drop_up"/>
+                app:srcCompat="@drawable/arrow_drop_up"/>
         </LinearLayout-->
         <RelativeLayout
             android:id="@+id/view_to_hide"

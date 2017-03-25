@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:id="@+id/player_controls"
     android:layout_width="150dp"
@@ -15,17 +16,17 @@
             android:id="@+id/repeat_type"
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_repeat_none" />
+            app:srcCompat="@drawable/ic_repeat_none" />
         <ImageView
             android:id="@+id/entire_width"
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_entire_width"/>
+            app:srcCompat="@drawable/ic_entire_width"/>
         <ImageView
             android:id="@+id/fullscreen"
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_fullscreen"/>
+            app:srcCompat="@drawable/ic_fullscreen"/>
     </LinearLayout>
 
 </LinearLayout>

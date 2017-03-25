@@ -17,12 +17,12 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        generatedDensities = []
         applicationId "com.shapps.mintubeapp"
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 2
         versionName "0.91"
+        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
